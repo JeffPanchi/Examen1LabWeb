@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Examen</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="calcular.js"></script>
+</head>
+<body>
+	<div class="puntaje">
+			<h2 >Puntaje: </h2> 
+			<h2 type="text" id="puntajeT"> </h2>
+		</div>
+	<div class="contenedor-primario">
+		
+		<div class="contenedor1-secundario">
+		<h2 type="text" id="num1"> </h2> 
+		<h2> x </h2>
+		<h2 type="text" id="num2"> </h2>
+	    </div>
+	    <div class="contenedor2-secundario">
+	    	<h2>Click en la respuesta correcta</h2>
+	    </div>
+	    <div class="contenedor-seleccion">
+	    	<div id="op1" onclick="verificar1(),GenerarRandomicos()"> <a>1</a></div>
+	    	<div id="op2" onclick="verificar2(),GenerarRandomicos()"> <a>2</a></div>
+	    	<div id="op3" onclick="verificar3(),GenerarRandomicos()"> <a>3</a></div>
+	    	<div id="op4" onclick="verificar4(),GenerarRandomicos()"> <a>4</a></div>
+	    </div>
+
+	    <button id="Iniciar" class="button" onclick="startCount(),GenerarRandomicos(),ocultarbtnIniciar(),mostrarCasillas(),mostrarbtnReiniciar()"  >Iniciar Juego</button>
+	    <button id="Reiniciar" class="button1" onclick="refresh(),ocultarbtnReiniciar()"  >Reiniciar Juego</button>
+
+	    <button id="correcta" class="buttonCorrecto" >Respuesta Correcta</button>
+
+	    <button id="incorrecta" class="buttonIncorrecto" >Respuesta Inconrrecta</button>
+
+
+        
+
+
+        
+        <input type="text" id="txt">
+
+        
+
+	</div>
+	
+	
+
+</body>
+
+<footer>
+	
+</footer>
+</html>

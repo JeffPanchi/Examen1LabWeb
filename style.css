@@ -1,0 +1,155 @@
+body{
+  text-align: center;
+}
+.contenedor-primario{
+  display: block;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 200px;
+  background-color: #21f2ee;
+  padding: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.contenedor-primario h2{
+   text-align: center; 
+   font-size: 20px;
+   text-transform: uppercase;
+   display:inline-flex;
+
+}
+.contenedor1-secundario{
+  display: block;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  background-color: #2196F3;
+  padding: 50px;
+  border-style: outset
+}
+.contenedor1-secundario h2{
+   text-align: center; 
+   font-size: 50px;
+   text-transform: uppercase;
+   display:inline-flex;
+
+}
+.contenedor2-secundario{
+  display: block;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #767889;
+  padding: 10px;
+  border-style: outset
+  
+}
+.contenedor2-secundario h2{
+   font-size: 15px;
+   text-transform: uppercase;
+}
+.contenedor-seleccion {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 30px;
+  background-color: #16ba39;
+  padding: 30px;
+}
+.contenedor-seleccion div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 66px;
+  cursor: pointer;
+  display: none;
+}
+.contenedor-seleccion div:hover{	
+	background-color: rgb(64, 47, 196);
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  left: 45%;
+  position: absolute;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.puntaje{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  left: 85%;
+  position: absolute;
+  padding: 0px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px -43px;
+  border-bottom: 6px solid blue;
+}
+
+input{
+  display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 24px 24px;
+  text-align: center;
+  margin-left: 736px;
+}
+
+.button1{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  left: 45%;
+  position: absolute;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: none;
+}
+
+.buttonCorrecto{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  left: 45%;
+  position: absolute;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px -398px;
+  display: none;
+}
+
+.buttonIncorrecto{
+  background-color: #e00b0b;
+  border: none;
+  color: white;
+  left: 45%;
+  position: absolute;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px -398px;
+  display: none;
+}
